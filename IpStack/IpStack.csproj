@@ -8,6 +8,7 @@
     <Description>A .NET Core client wrapper for accessing the ipstack API.</Description>
     <RepositoryUrl>https://github.com/mattosaurus/IpStack</RepositoryUrl>
     <Company />
+    <PackageTags>ipstack geolocation ip address</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
