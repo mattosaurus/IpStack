@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ipstack", "ipstack\ipstack.csproj", "{ADEE4143-84C5-4249-8F6C-5FA0D02636C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADEE4143-84C5-4249-8F6C-5FA0D02636C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEE4143-84C5-4249-8F6C-5FA0D02636C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEE4143-84C5-4249-8F6C-5FA0D02636C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEE4143-84C5-4249-8F6C-5FA0D02636C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B6C806B-DB3B-484C-8BC5-5806C0C76611}
+	EndGlobalSection
+EndGlobal
