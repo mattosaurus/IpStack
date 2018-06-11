@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>mattosaurus</Authors>
+    <PackageReleaseNotes>Creation.</PackageReleaseNotes>
+    <Description>A .NET Core client wrapper for accessing the ipstack API.</Description>
+    <RepositoryUrl>https://github.com/mattosaurus/IpStack</RepositoryUrl>
+    <Company />
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.3.1" />
+  </ItemGroup>
 
 </Project>
