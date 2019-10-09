@@ -5,6 +5,7 @@ using IpStack.Models;
 using RestSharp;
 using IpStack.AppCode;
 using RestSharp.Deserializers;
+using RestSharp.Serialization.Json;
 
 namespace IpStack
 {
