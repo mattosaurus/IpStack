@@ -1,14 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>mattosaurus</Authors>
-    <PackageReleaseNotes>Creation.</PackageReleaseNotes>
+    <PackageReleaseNotes>v1.0.1 - Update RestSharp package</PackageReleaseNotes>
     <Description>A .NET Core client wrapper for accessing the ipstack API.</Description>
     <RepositoryUrl>https://github.com/mattosaurus/IpStack</RepositoryUrl>
     <Company />
     <PackageTags>ipstack geolocation ip address</PackageTags>
+    <Version>1.0.1</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
