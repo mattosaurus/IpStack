@@ -2,7 +2,7 @@
 A .NET Core client wrapper for accessing the ipstack API.
 
 # Installation
-To use NationalRail in your C# project, you can either download the IpStack C# .NET libraries directly from the Github repository or, if you have the NuGet package manager installed, you can grab them automatically.
+To use IpStack in your C# project, you can either download the IpStack C# .NET libraries directly from the Github repository or, if you have the NuGet package manager installed, you can grab them automatically.
 
 ```
 PM> Install-Package IpStack
