@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace IpStack.AppCode
+namespace IpStack.Helpers
 {
-    public static class Common
+    public static class Utilities
     {
         public static int? BoolToInt(bool? value)
         {
