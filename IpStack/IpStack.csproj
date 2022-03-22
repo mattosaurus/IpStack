@@ -1,20 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-	  <ImplicitUsings>enable</ImplicitUsings>
-	  <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>mattosaurus</Authors>
-    <PackageReleaseNotes>v1.0.1 - Update RestSharp package</PackageReleaseNotes>
-    <Description>A .NET Core client wrapper for accessing the ipstack API.</Description>
-    <RepositoryUrl>https://github.com/mattosaurus/IpStack</RepositoryUrl>
-    <Company />
-    <PackageTags>ipstack geolocation ip address</PackageTags>
-    <Version>1.0.1</Version>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageProjectUrl>https://github.com/mattosaurus/IpStack</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/mattosaurus/IpStack</RepositoryUrl>
+		<PackageTags>IpStack;IP Address</PackageTags>
+		<PackageReleaseNotes>Refactor</PackageReleaseNotes>
+		<AssemblyVersion>2.0.0</AssemblyVersion>
+		<FileVersion>2.0.0</FileVersion>
+		<Title>IpStack</Title>
+		<Description>.NET wrapper to query the IpStack API for IP address details.</Description>
+		<Summary>.NET wrapper to query the IpStack API for IP address details.</Summary>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>2.0.0</Version>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
