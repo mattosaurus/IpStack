@@ -2,7 +2,7 @@
 .NET wrapper to query the IpStack API for IP address data.
 
 # Installation
-To use MetOfficeDataPoint in your C# project, you can either download the MetOfficeDataPoint C# .NET libraries directly from the Github repository or, if you have the NuGet package manager installed, you can grab them automatically.
+To use IpStack in your C# project, you can either download the IpStack C# .NET libraries directly from the Github repository or, if you have the NuGet package manager installed, you can grab them automatically.
 
 ```
 PM> Install-Package IpStack
