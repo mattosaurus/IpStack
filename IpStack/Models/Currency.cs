@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text.Json.Serialization;
 
 namespace IpStack.Models
 {
@@ -29,6 +27,7 @@ namespace IpStack.Models
         /// <summary>
         /// Returns the native symbol letter of the given currency.
         /// </summary>
+        [JsonPropertyName("symbol_native")]
         public string SymbolNative { get; set; }
     }
 }

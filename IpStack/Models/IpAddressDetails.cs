@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text.Json.Serialization;
 
 namespace IpStack.Models
 {
@@ -24,31 +22,37 @@ namespace IpStack.Models
         /// <summary>
         /// Returns the 2-letter continent code associated with the IP.
         /// </summary>
+        [JsonPropertyName("continent_code")]
         public string ContinentCode { get; set; }
 
         /// <summary>
         /// Returns the name of the continent associated with the IP.
         /// </summary>
+        [JsonPropertyName("continent_name")]
         public string ContinentName { get; set; }
 
         /// <summary>
         /// Returns the 2-letter country code associated with the IP.
         /// </summary>
+        [JsonPropertyName("country_code")]
         public string CountryCode { get; set; }
 
         /// <summary>
         /// Returns the name of the country associated with the IP.
         /// </summary>
+        [JsonPropertyName("country_name")]
         public string CountryName { get; set; }
 
         /// <summary>
         /// Returns the region code of the region associated with the IP.
         /// </summary>
+        [JsonPropertyName("region_code")]
         public string RegionCode { get; set; }
 
         /// <summary>
         /// Returns the name of the region associated with the IP.
         /// </summary>
+        [JsonPropertyName("region_name")]
         public string RegionName { get; set; }
 
         /// <summary>

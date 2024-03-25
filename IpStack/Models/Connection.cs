@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace IpStack.Models
+﻿namespace IpStack.Models
 {
     public class Connection
     {
