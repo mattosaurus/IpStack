@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace IpStack.Debug
@@ -22,6 +23,9 @@ namespace IpStack.Debug
         public async Task RunAsync()
         {
             var ipAddressDetails = await _IpStackService.GetIpAddressDetailsAsync();
+            _logger.LogInformation($"Retrieved IP address details: {JsonSerializer.Serialize(ipAddressDetails)}");
+            var ipAddressDetails2 = await _IpStackService.GetIpAddressDetailsAsync(ipAddress: "127.0.0.1");
+            _logger.LogInformation($"Retrieved IP address details: {JsonSerializer.Serialize(ipAddressDetails2)}");
         }
     }
 }

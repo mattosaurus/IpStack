@@ -19,7 +19,7 @@ namespace IpStack.Models
         /// Returns the GMT offset of the given time zone in seconds.
         /// </summary>
         [JsonPropertyName("gmt_offset")]
-        public int GmtOffset { get; set; }
+        public int? GmtOffset { get; set; }
 
         /// <summary>
         /// Returns the universal code of the given time zone.
@@ -30,6 +30,6 @@ namespace IpStack.Models
         /// Returns true or false depending on whether or not the given time zone is considered daylight saving time.
         /// </summary>
         [JsonPropertyName("is_daylight_saving")]
-        public bool IsDaylightSaving { get; set; }
+        public bool? IsDaylightSaving { get; set; }
     }
 }
