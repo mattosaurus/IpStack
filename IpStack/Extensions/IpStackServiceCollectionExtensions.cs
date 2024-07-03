@@ -12,7 +12,6 @@ namespace IpStack.Extensions
             if (collection == null) throw new ArgumentNullException(nameof(collection));
             if (setupAction == null) throw new ArgumentNullException(nameof(setupAction));
 
-            // Add Met Office HTTP Client
             collection.AddHttpClient<IIpStackService, IpStackService>(client =>
             {
                 client.BaseAddress = new Uri("http://api.ipstack.com/");
@@ -45,7 +44,6 @@ namespace IpStack.Extensions
             if (collection == null) throw new ArgumentNullException(nameof(collection));
             if (configuration == null) throw new ArgumentNullException(nameof(configuration));
 
-            // Add Met Office HTTP Client
             collection.AddHttpClient<IIpStackService, IpStackService>(client =>
             {
                 client.BaseAddress = new Uri("http://api.ipstack.com/");
