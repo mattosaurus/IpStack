@@ -8,7 +8,7 @@ namespace IpStack.Models
         /// Returns the unique geoname identifier in accordance with the Geonames Registry.
         /// </summary>
         [JsonPropertyName("geoname_id")]
-        public int GeonameId { get; set; }
+        public int? GeonameId { get; set; }
 
         /// <summary>
         /// Returns the capital city of the country associated with the IP.
@@ -48,6 +48,6 @@ namespace IpStack.Models
         /// Returns true or false depending on whether or not the county associated with the IP is in the European Union.
         /// </summary>
         [JsonPropertyName("is_eu")]
-        public bool IsEu { get; set; }
+        public bool? IsEu { get; set; }
     }
 }
